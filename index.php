@@ -15,11 +15,17 @@
     $linkName = 'Codecademy';
     $linkURL = 'https://www.codecademy.com/';
     $linkImage =
-    'https://production.cdmycdn.com/webpack/44e01805165bfde4e6e4322c540ab
-    f81.svg';
+    'https://production.cdmycdn.com/webpack/44e01805165bfde4e6e4322c540abf81.svg';
     $linkDescription = 'Learn to code interactively, for free.';
 
-    echo '<a href="' . $linkURL . '">' . $linkName . '</a>';
+    echo '<h2>' . $linkName . '</h2>';
+
+    echo 
+    '<div>
+      <a href="' . $linkURL . '">' . $linkURL . '</a>
+    </diV>';
+
+    echo '<img src="' . $linkImage . '" alt="' . $linkDescription . '">';
   ?>
 </body>
 </html>
