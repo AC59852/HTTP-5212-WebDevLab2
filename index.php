@@ -7,7 +7,7 @@
   <title>PHP Exercise 1: Links and Variables</title>
 </head>
 <body>
-  <h1>THIS IS A TEST</h1>
+  <h1>PHP Exercise 1: Links and Variables</h1>
   <p>Use PHP echo and variables to output the
   following link information:</p>
   <hr>
@@ -18,6 +18,8 @@
     'https://production.cdmycdn.com/webpack/44e01805165bfde4e6e4322c540ab
     f81.svg';
     $linkDescription = 'Learn to code interactively, for free.';
+
+    echo '<a href="' . $linkURL . '">' . $linkName . '</a>';
   ?>
 </body>
 </html>
