@@ -4,37 +4,21 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PHP Exercise 1: Links and Variables</title>
+  <title>PHP Exercises Home Page</title>
 </head>
 <body>
-  <header>
-    <nav>
+  <h1>Austin Caron's HTTP-5212 PHP Website</h1>
+  <p>This is just an incredibly simple page to keep track of my exercises for the PHP, MySQL and Laravel portion of the HTTP-5212 class.</p>
+  <hr>
+  <nav>
       <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="exercise1.php">Exercise 1</a></li>
-        <li><a href="exercise2.php">Exercise 2</a></li>
+        <li>Week 2
+          <ul>
+            <li><a href="exercise1.php">Exercise 1 - Variables</a></li>
+            <li><a href="exercise2.php">Exercise 2 - Arrays</a></li>
+          </ul>
+        </li>
       </ul>
     </nav>
-  </header>
-  <h1>PHP Exercise 1: Links and Variables</h1>
-  <p>Use PHP echo and variables to output the
-  following link information:</p>
-  <hr>
-  <?php
-    $linkName = 'Codecademy';
-    $linkURL = 'https://www.codecademy.com/';
-    $linkImage = 'https://static-assets.codecademy.com/Courses/Learn-Redux/matching-game/codecademy_logo.png';
-    $linkDescription = 'Learn to code interactively, for free.';
-
-    echo 
-    "<div>
-      <h2>$linkName</h2>
-      <p>$linkDescription</p>
-      <div>
-        <img width='400' src='$linkImage' alt='$linkDescription'>
-      </div>
-      <a href='$linkURL' target='_blank'>Visit $linkName</a>
-    </diV>";
-  ?>
 </body>
 </html>
