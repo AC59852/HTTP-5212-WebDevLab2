@@ -7,7 +7,7 @@
   <title>PHP Exercise 1: Links and Variables</title>
 </head>
 <body>
-  <h1>PHP Exercise 1: Links and Variables</h1>
+  <h1>THIS IS A TEST</h1>
   <p>Use PHP echo and variables to output the
   following link information:</p>
   <hr>
