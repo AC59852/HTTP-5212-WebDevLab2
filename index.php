@@ -29,6 +29,7 @@
     echo 
     "<div>
       <h2>$linkName</h2>
+      <p>$linkDescription</p>
       <div>
         <img width='400' src='$linkImage' alt='$linkDescription'>
       </div>
