@@ -14,17 +14,17 @@
   <?php
     $linkName = 'Codecademy';
     $linkURL = 'https://www.codecademy.com/';
-    $linkImage =
-    'https://production.cdmycdn.com/webpack/44e01805165bfde4e6e4322c540abf81.svg';
+    $linkImage = 'https://static-assets.codecademy.com/Courses/Learn-Redux/matching-game/codecademy_logo.png';
     $linkDescription = 'Learn to code interactively, for free.';
 
     echo 
-    '<div>
-      <h2>' . $linkName . '</h2>
-      <a href="' . $linkURL . '">' . "Visit Codecademy" . '</a>
-    </diV>';
-
-    echo '<img src="' . $linkImage . '" alt="' . $linkDescription . '">';
+    "<div>
+      <h2>$linkName</h2>
+      <div>
+        <img width='400' src='$linkImage' alt='$linkDescription'>
+      </div>
+      <a href='$linkURL' target='_blank'>Visit $linkName</a>
+    </diV>";
   ?>
 </body>
 </html>
