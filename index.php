@@ -18,11 +18,10 @@
     'https://production.cdmycdn.com/webpack/44e01805165bfde4e6e4322c540abf81.svg';
     $linkDescription = 'Learn to code interactively, for free.';
 
-    echo '<h2>' . $linkName . '</h2>';
-
     echo 
     '<div>
-      <a href="' . $linkURL . '">' . $linkURL . '</a>
+      <h2>' . $linkName . '</h2>
+      <a href="' . $linkURL . '">' . "Visit Codecademy" . '</a>
     </diV>';
 
     echo '<img src="' . $linkImage . '" alt="' . $linkDescription . '">';
